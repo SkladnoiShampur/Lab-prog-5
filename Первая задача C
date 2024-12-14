@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    const float I= 2.5;
+    int inch = 1;
+    printf("Дюймы\tСантиметры\n");
+    while (inch <= 20) {
+        float c = inch * I;
+        printf("%d\t%.2f\n", inch, c);
+        inch++;
+    }
+    return 0;
+}
